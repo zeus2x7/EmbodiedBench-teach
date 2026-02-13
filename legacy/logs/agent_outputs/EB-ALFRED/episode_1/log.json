@@ -1,0 +1,407 @@
+[
+  {
+    "step": 0,
+    "action": "reset",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "instruction": "Rinse off a ladle and move it to the table."
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 1,
+    "action": "find a RemoteControl",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.3333333333333333,
+      "instruction": "Rinse off a ladle and move it to the table.",
+      "env_step": 1,
+      "env_feedback": "Last action is invalid. Cannot find Remotecontrol. This object may not exist in this scene. Try to explore other instances instead.",
+      "episode_elapsed_seconds": 0.02112579345703125,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Fridge', 'GarbageCan']"
+      },
+      "action_id": 68,
+      "action_description": "find a RemoteControl",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 2,
+    "action": "close the Microwave",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.3333333333333333,
+      "instruction": "Rinse off a ladle and move it to the table.",
+      "env_step": 2,
+      "env_feedback": "Last action is invalid. Close action failed. The Microwave is already closed",
+      "episode_elapsed_seconds": 0.04293060302734375,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Fridge', 'GarbageCan']"
+      },
+      "action_id": 144,
+      "action_description": "close the Microwave",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 3,
+    "action": "close the Drawer_5",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.3333333333333333,
+      "instruction": "Rinse off a ladle and move it to the table.",
+      "env_step": 3,
+      "env_feedback": "Last action is invalid. Close action failed. The Drawer is already closed",
+      "episode_elapsed_seconds": 0.06426215171813965,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Fridge', 'GarbageCan']"
+      },
+      "action_id": 189,
+      "action_description": "close the Drawer_5",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 4,
+    "action": "find a KeyChain",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.3333333333333333,
+      "instruction": "Rinse off a ladle and move it to the table.",
+      "env_step": 4,
+      "env_feedback": "Last action is invalid. Cannot find Keychain. This object may not exist in this scene. Try to explore other instances instead.",
+      "episode_elapsed_seconds": 0.07506465911865234,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Fridge', 'GarbageCan']"
+      },
+      "action_id": 45,
+      "action_description": "find a KeyChain",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 5,
+    "action": "find a Plate_2",
+    "reward": 1.2000000000000002,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.3333333333333333,
+      "instruction": "Rinse off a ladle and move it to the table.",
+      "env_step": 5,
+      "env_feedback": "Last action executed successfully.",
+      "episode_elapsed_seconds": 0.17647004127502441,
+      "last_action_success": 1.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "[]"
+      },
+      "action_id": 174,
+      "action_description": "find a Plate_2",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 6,
+    "action": "close the Microwave",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.3333333333333333,
+      "instruction": "Rinse off a ladle and move it to the table.",
+      "env_step": 6,
+      "env_feedback": "Last action is invalid. Close action failed. The Microwave is already closed",
+      "episode_elapsed_seconds": 0.19601702690124512,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "[]"
+      },
+      "action_id": 144,
+      "action_description": "close the Microwave",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 7,
+    "action": "find a Knife_2",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.3333333333333333,
+      "instruction": "Rinse off a ladle and move it to the table.",
+      "env_step": 7,
+      "env_feedback": "Last action executed successfully.",
+      "episode_elapsed_seconds": 0.2789156436920166,
+      "last_action_success": 1.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "[]"
+      },
+      "action_id": 199,
+      "action_description": "find a Knife_2",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 8,
+    "action": "find a PepperShaker_3",
+    "reward": -0.6000000000000001,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.3333333333333333,
+      "instruction": "Rinse off a ladle and move it to the table.",
+      "env_step": 8,
+      "env_feedback": "Last action executed successfully.",
+      "episode_elapsed_seconds": 0.361630916595459,
+      "last_action_success": 1.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "[]"
+      },
+      "action_id": 202,
+      "action_description": "find a PepperShaker_3",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 9,
+    "action": "pick up the Fork",
+    "reward": -0.5,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.3333333333333333,
+      "instruction": "Rinse off a ladle and move it to the table.",
+      "env_step": 9,
+      "env_feedback": "Last action is invalid. Fork is not visible because it is in Sink. Go there to pick the object instead.",
+      "episode_elapsed_seconds": 0.44303011894226074,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "[]"
+      },
+      "action_id": 102,
+      "action_description": "pick up the Fork",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 10,
+    "action": "pick up the ToiletPaper",
+    "reward": -0.5,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.3333333333333333,
+      "instruction": "Rinse off a ladle and move it to the table.",
+      "env_step": 10,
+      "env_feedback": "Last action is invalid. Cannot find Toiletpaper to pick up. Find the object before picking up it",
+      "episode_elapsed_seconds": 0.4553380012512207,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "[]"
+      },
+      "action_id": 100,
+      "action_description": "pick up the ToiletPaper",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 11,
+    "action": "pick up the SaltShaker",
+    "reward": -0.5,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.3333333333333333,
+      "instruction": "Rinse off a ladle and move it to the table.",
+      "env_step": 11,
+      "env_feedback": "Last action is invalid. Saltshaker is not visible because it is in CounterTop_2. Go there to pick the object instead.",
+      "episode_elapsed_seconds": 0.5347154140472412,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "[]"
+      },
+      "action_id": 121,
+      "action_description": "pick up the SaltShaker",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 12,
+    "action": "find a PepperShaker_2",
+    "reward": 0.4,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.3333333333333333,
+      "instruction": "Rinse off a ladle and move it to the table.",
+      "env_step": 12,
+      "env_feedback": "Last action executed successfully.",
+      "episode_elapsed_seconds": 0.7406835556030273,
+      "last_action_success": 1.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Apple', 'PepperShaker', 'DiningTable', 'Ladle', 'Bread', 'Pan', 'Egg', 'Knife']"
+      },
+      "action_id": 201,
+      "action_description": "find a PepperShaker_2",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 13,
+    "action": "find a SoapBar",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.3333333333333333,
+      "instruction": "Rinse off a ladle and move it to the table.",
+      "env_step": 13,
+      "env_feedback": "Last action is invalid. Cannot find Soapbar. This object may not exist in this scene. Try to explore other instances instead.",
+      "episode_elapsed_seconds": 0.7555060386657715,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Apple', 'PepperShaker', 'DiningTable', 'Ladle', 'Bread', 'Pan', 'Egg', 'Knife']"
+      },
+      "action_id": 24,
+      "action_description": "find a SoapBar",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 14,
+    "action": "find a Pencil",
+    "reward": 0.0,
+    "done": true,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.3333333333333333,
+      "instruction": "Rinse off a ladle and move it to the table.",
+      "env_step": 14,
+      "env_feedback": "Last action is invalid. Cannot find Pencil. This object may not exist in this scene. Try to explore other instances instead.",
+      "episode_elapsed_seconds": 0.7687191963195801,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Apple', 'PepperShaker', 'DiningTable', 'Ladle', 'Bread', 'Pan', 'Egg', 'Knife']"
+      },
+      "action_id": 66,
+      "action_description": "find a Pencil",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  }
+]

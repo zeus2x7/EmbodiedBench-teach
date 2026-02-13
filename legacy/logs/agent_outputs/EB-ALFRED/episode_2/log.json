@@ -1,0 +1,323 @@
+[
+  {
+    "step": 0,
+    "action": "reset",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "instruction": "rinse off lettuce and put it down on the counter top"
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 1,
+    "action": "find a Toilet",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.0,
+      "instruction": "rinse off lettuce and put it down on the counter top",
+      "env_step": 1,
+      "env_feedback": "Last action is invalid. Cannot find Toilet. This object may not exist in this scene. Try to explore other instances instead.",
+      "episode_elapsed_seconds": 0.01883983612060547,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Fridge']"
+      },
+      "action_id": 17,
+      "action_description": "find a Toilet",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 2,
+    "action": "open the Drawer_8",
+    "reward": -0.5,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.0,
+      "instruction": "rinse off lettuce and put it down on the counter top",
+      "env_step": 2,
+      "env_feedback": "Last action is invalid. Open action failed.",
+      "episode_elapsed_seconds": 0.7866702079772949,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Fridge']"
+      },
+      "action_id": 280,
+      "action_description": "open the Drawer_8",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 3,
+    "action": "find a Cart",
+    "reward": -0.5,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.0,
+      "instruction": "rinse off lettuce and put it down on the counter top",
+      "env_step": 3,
+      "env_feedback": "Last action is invalid. Cannot find Cart. This object may not exist in this scene. Try to explore other instances instead.",
+      "episode_elapsed_seconds": 0.8010714054107666,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Fridge']"
+      },
+      "action_id": 0,
+      "action_description": "find a Cart",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 4,
+    "action": "close the Fridge",
+    "reward": -0.5,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.0,
+      "instruction": "rinse off lettuce and put it down on the counter top",
+      "env_step": 4,
+      "env_feedback": "Last action is invalid. Close action failed. The Fridge is already closed",
+      "episode_elapsed_seconds": 0.833345890045166,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Fridge']"
+      },
+      "action_id": 140,
+      "action_description": "close the Fridge",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 5,
+    "action": "pick up the Watch",
+    "reward": -0.5,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.0,
+      "instruction": "rinse off lettuce and put it down on the counter top",
+      "env_step": 5,
+      "env_feedback": "Last action is invalid. Cannot find Watch to pick up. Find the object before picking up it",
+      "episode_elapsed_seconds": 0.846959114074707,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Fridge']"
+      },
+      "action_id": 87,
+      "action_description": "pick up the Watch",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 6,
+    "action": "find a Ottoman",
+    "reward": -0.5,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.0,
+      "instruction": "rinse off lettuce and put it down on the counter top",
+      "env_step": 6,
+      "env_feedback": "Last action is invalid. Cannot find Ottoman. This object may not exist in this scene. Try to explore other instances instead.",
+      "episode_elapsed_seconds": 0.8597474098205566,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Fridge']"
+      },
+      "action_id": 3,
+      "action_description": "find a Ottoman",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 7,
+    "action": "pick up the SaltShaker",
+    "reward": -0.5,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.0,
+      "instruction": "rinse off lettuce and put it down on the counter top",
+      "env_step": 7,
+      "env_feedback": "Last action is invalid. Saltshaker is not visible because it is in CounterTop. Go there to pick the object instead.",
+      "episode_elapsed_seconds": 0.9940836429595947,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Fridge']"
+      },
+      "action_id": 121,
+      "action_description": "pick up the SaltShaker",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 8,
+    "action": "find a DishSponge",
+    "reward": 10.8,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.0,
+      "instruction": "rinse off lettuce and put it down on the counter top",
+      "env_step": 8,
+      "env_feedback": "Last action executed successfully.",
+      "episode_elapsed_seconds": 1.1140787601470947,
+      "last_action_success": 1.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Spoon', 'Bowl', 'DishSponge', 'Lettuce', 'Plate', 'DiningTable', 'Knife', 'WineBottle', 'PaperTowelRoll', 'Lettuce', 'Cup', 'DishSponge', 'Mug']"
+      },
+      "action_id": 70,
+      "action_description": "find a DishSponge",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 9,
+    "action": "open the Cabinet_8",
+    "reward": -0.1,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.0,
+      "instruction": "rinse off lettuce and put it down on the counter top",
+      "env_step": 9,
+      "env_feedback": "Last action is invalid. Open action failed.",
+      "episode_elapsed_seconds": 1.6626982688903809,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Bowl', 'DishSponge', 'Lettuce', 'Bowl', 'Plate', 'DiningTable', 'Knife', 'PaperTowelRoll', 'Cup', 'Mug']"
+      },
+      "action_id": 258,
+      "action_description": "open the Cabinet_8",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 10,
+    "action": "find a Candle",
+    "reward": -0.1,
+    "done": false,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.0,
+      "instruction": "rinse off lettuce and put it down on the counter top",
+      "env_step": 10,
+      "env_feedback": "Last action is invalid. Cannot find Candle. This object may not exist in this scene. Try to explore other instances instead.",
+      "episode_elapsed_seconds": 1.67734956741333,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Bowl', 'DishSponge', 'Lettuce', 'Bowl', 'Plate', 'DiningTable', 'Knife', 'PaperTowelRoll', 'Cup', 'Mug']"
+      },
+      "action_id": 5,
+      "action_description": "find a Candle",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 11,
+    "action": "open the Drawer_11",
+    "reward": -0.1,
+    "done": true,
+    "info": {
+      "task_success": 0.0,
+      "task_progress": 0.0,
+      "instruction": "rinse off lettuce and put it down on the counter top",
+      "env_step": 11,
+      "env_feedback": "Last action is invalid. Open action failed.",
+      "episode_elapsed_seconds": 2.239309787750244,
+      "last_action_success": 0.0,
+      "object_states": {
+        "cooled_objects": "set()",
+        "heated_objects": "set()",
+        "cleaned_objects": "set()",
+        "visible_objs": "['Bowl', 'DishSponge', 'Lettuce', 'Bowl', 'Plate', 'DiningTable', 'Knife', 'PaperTowelRoll', 'Cup', 'Mug']"
+      },
+      "action_id": 264,
+      "action_description": "open the Drawer_11",
+      "reasoning": ""
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  }
+]

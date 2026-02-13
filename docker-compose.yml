@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  embodied_bench:
+    build: .
+    image: embodied_bench_v1:latest
+    container_name: embench_worker
+    volumes:
+      - .:/app
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+      - HF_TOKEN=${HF_TOKEN}
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    stdin_open: true
+    tty: true
+    network_mode: host

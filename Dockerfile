@@ -1,0 +1,133 @@
+# Base image with CUDA and OpenGL support
+FROM nvidia/cuda:12.4.1-devel-ubuntu22.04
+
+# Set environment variables
+ENV DEBIAN_FRONTEND=noninteractive
+ENV LANG=C.UTF-8
+ENV LC_ALL=C.UTF-8
+
+# Setup environment variables for Simulators (Must be before PyRep install)
+ENV COPPELIASIM_ROOT=/app/CoppeliaSim_Pro_V4_1_0_Ubuntu20_04
+ENV LD_LIBRARY_PATH=$COPPELIASIM_ROOT:$LD_LIBRARY_PATH
+ENV QT_QPA_PLATFORM_PLUGIN_PATH=$COPPELIASIM_ROOT
+
+# Install system dependencies for all 4 environments
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    cmake \
+    git \
+    wget \
+    curl \
+    vim \
+    ca-certificates \
+    libjpeg-dev \
+    libpng-dev \
+    libglu1-mesa-dev \
+    libgl1-mesa-glx \
+    libosmesa6-dev \
+    libglew-dev \
+    libglfw3-dev \
+    libx11-6 \
+    libxext6 \
+    libxrender-dev \
+    libxcursor-dev \
+    libxinerama-dev \
+    libxi-dev \
+    libxrandr-dev \
+    libxss-dev \
+    libxtst-dev \
+    libxcomposite1 \
+    libasound2 \
+    libdbus-1-3 \
+    libnss3 \
+    libxcomposite-dev \
+    libxt-dev \
+    xvfb \
+    mesa-utils \
+    x11-utils \
+    libegl1-mesa-dev \
+    libgles2-mesa-dev \
+    freeglut3-dev \
+    libglib2.0-0 \
+    libsm6 \
+    libxext6 \
+    libxrender-dev \
+    libvulkan1 \
+    mesa-vulkan-drivers \
+    libxkbcommon-x11-0 \
+    libxkbcommon0 \
+    libxcb-icccm4 \
+    libxcb-image0 \
+    libxcb-keysyms1 \
+    libxcb-randr0 \
+    libxcb-render-util0 \
+    libxcb-xinerama0 \
+    libxcb-xinput0 \
+    libxcb-xfixes0 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Miniconda
+ENV CONDA_DIR /opt/conda
+RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh && \
+    /bin/bash ~/miniconda.sh -b -p $CONDA_DIR && \
+    rm ~/miniconda.sh
+
+ENV PATH=$CONDA_DIR/bin:$PATH
+RUN conda init bash && \
+    conda config --set plugins.auto_accept_tos true
+
+
+# Create a working directory
+WORKDIR /app
+
+# Copy requirement files first
+COPY reqs_main.txt .
+
+# Create Conda Environments
+# 1. embench
+RUN conda create -n embench python=3.9 -y
+# Install habitat-sim with bullet physics support (headless) in a single command
+RUN conda install -n embench -y -c conda-forge -c aihabitat habitat-sim headless withbullet
+# Install PyTorch and strictly pin numpy to 1.23.5 (overwriting any conda updates)
+RUN conda run -n embench pip install --no-cache-dir torch torchvision torchaudio numpy==1.23.5 --index-url https://download.pytorch.org/whl/cu124
+RUN conda run -n embench pip install --no-cache-dir -r reqs_main.txt
+
+# 2. embench_nav
+COPY reqs_nav.txt .
+RUN conda create -n embench_nav python=3.9 -y
+RUN conda run -n embench_nav pip install --no-cache-dir torch torchvision torchaudio numpy==1.23.5 --index-url https://download.pytorch.org/whl/cu124
+RUN conda run -n embench_nav pip install --no-cache-dir -r reqs_nav.txt
+
+# 3. embench_man
+COPY reqs_man.txt .
+RUN conda create -n embench_man python=3.9 -y
+RUN conda run -n embench_man pip install --no-cache-dir torch torchvision torchaudio numpy==1.23.5 --index-url https://download.pytorch.org/whl/cu124
+RUN conda run -n embench_man pip install --no-cache-dir -r reqs_man.txt
+
+# Copy all project files now
+COPY . .
+
+# Editable installs
+RUN conda run -n embench pip install --no-cache-dir -e .
+RUN conda run -n embench pip install --no-cache-dir -e ./habitat-lab/habitat-lab || echo "Optional habitat-lab failed"
+RUN conda run -n embench pip install --no-cache-dir -e ./habitat-lab/habitat-baselines || echo "Optional habitat-baselines failed"
+
+RUN conda run -n embench_nav pip install --no-cache-dir -e .
+
+RUN conda run -n embench_man pip install --no-cache-dir -e .
+# Remove broken symlink from host and create a fresh valid one
+RUN rm -f $COPPELIASIM_ROOT/libcoppeliaSim.so.1 && ln -s $COPPELIASIM_ROOT/libcoppeliaSim.so $COPPELIASIM_ROOT/libcoppeliaSim.so.1
+RUN conda run -n embench_man pip install --no-cache-dir -e ./embodiedbench/envs/eb_manipulation/PyRep
+RUN conda run -n embench_man pip install --no-cache-dir -e ./embodiedbench/envs/eb_manipulation
+
+# ENV variables moved to top
+
+# Final numpy pin - conda and editable installs tend to override numpy version
+RUN conda run -n embench pip install --no-cache-dir "numpy==1.23.5" "pandas==1.5.3" "scipy==1.10.1" "matplotlib==3.7.1"
+
+# Entrypoint script to start Xvfb and run agent
+COPY docker_entrypoint.sh /usr/local/bin/entrypoint.sh
+RUN chmod +x /usr/local/bin/entrypoint.sh
+
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+CMD ["bash"]

@@ -315,6 +315,21 @@ class EBAlfEnv(gym.Env):
         subgoal_met = self.env.get_goal_conditions_met()
         info['task_success'] = float(self.env.get_goal_satisfied())
         info['task_progress'] = subgoal_met[0] / subgoal_met[1]
+        
+        # Add detailed goal condition info
+        if hasattr(self.env, 'task') and self.env.task:
+            task = self.env.task
+            try:
+                expert_plan = task.traj['plan']['high_pddl']
+                current_subgoal = expert_plan[task.goal_idx] if task.goal_idx < len(expert_plan) else None
+                info['goal_condition'] = {
+                    'goal_idx': task.goal_idx,
+                    'num_subgoals': task.num_subgoals,
+                    'current_subgoal': current_subgoal,
+                    'goal_finished': task.goal_finished
+                }
+            except Exception as e:
+                info['goal_condition'] = {'error': str(e)}
 
         obs = {
             'head_rgb': self.env.last_event.frame,

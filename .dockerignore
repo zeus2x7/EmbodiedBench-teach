@@ -1,0 +1,25 @@
+# Exclude large binaries and archives
+embodied_benchv1.tar.zst
+complete_cosmos_outputs_for_2episodes/
+cosmos_outputs/
+*.zip
+*.tar.zst
+*.log
+
+# Exclude simulator binaries if they are too large (user can mount them or we copy specifically)
+# But we need them inside if we want it to be "shift directly"
+# The user said "containerize the entire project"
+# So I should probably INCLUDE the simulators if they are in the folder.
+# But I should exclude large datasets if possible.
+
+# Exclude git and conda artifacts
+.git
+.conda
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Exclude the large data folder if it exists
+data/
+datasets/

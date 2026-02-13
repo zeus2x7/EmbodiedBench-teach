@@ -193,9 +193,11 @@ class EBManEnv(gym.Env):
             self.last_frame_obs = vars(obs)
             action_success = True
         except Exception as e:
-            print(f"*** An unexpected error occurred: {e}")
-            obs, reward, terminate = self.last_frame_obs, -1, False
-            action_success = e
+            # print(f"*** An unexpected error occurred: {e}")
+            obs, reward, terminate = self.last_frame_obs, -1.0, False
+            action_success = str(e) # Store error message
+            info['error'] = str(e)
+
         env_feedback = self.get_env_feedback(action_success, reward)
         info['env_feedback'] = env_feedback
         info['instruction'] = self.episode_language_instruction
@@ -203,6 +205,17 @@ class EBManEnv(gym.Env):
         info['episode_elapsed_seconds'] = time.time() - self._episode_start_time
         info['episode_num'] = self._current_episode_num
         info['action'] = discrete_action
+        
+        # Add success criteria info
+        info['success_criteria'] = {
+            'reward': reward,
+            'terminate': terminate,
+            'action_success': action_success
+        }
+        # Try to get task specific conditions if possible
+        if hasattr(self.task, '_task') and hasattr(self.task._task, '_success_conditions'):
+             info['success_criteria']['conditions'] = str(self.task._task._success_conditions)
+
         if action_success == True:
             info['action_success'] = 1.0
         else:

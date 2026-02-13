@@ -231,7 +231,14 @@ class EBNavigationEnv(gym.Env):
             (agent_position["z"] - target_position["z"])**2
         )
         success = (dist <= SUCCESS_THRESHOLD)
-        return float(success), dist
+        stats = {
+            "success": float(success),
+            "distance_to_target": dist,
+            "success_threshold": SUCCESS_THRESHOLD,
+            "agent_position": agent_position,
+            "target_position": target_position
+        }
+        return float(success), dist, stats
 
         
 
@@ -255,28 +262,30 @@ class EBNavigationEnv(gym.Env):
                 action = np.random.randint(8)
 
             self.discrete_action_mapper(action)
-            reward, distance = self.measure_success()
+            reward, distance, stats = self.measure_success()
             done = True
             info['action_description'] = self.language_skill_set[action]
+            info['success_criteria'] = stats
 
         else:
             if type(action)!=int or action > 7 or action < 0:
                 action = np.random.randint(8)
 
             self.discrete_action_mapper(action)
-            reward, distance = self.measure_success()
+            reward, distance, stats = self.measure_success()
             if reward>0:
                 done = True
             else:
                 done = False
             info['action_description'] = self.language_skill_set[action]
+            info['success_criteria'] = stats
 
         #info['action_description'] = self.language_skill_set[action]
 
         obs = {
                     'head_rgb': self.env.last_event.frame,
                 }
-        reward, distance = self.measure_success()
+        reward, distance, _ = self.measure_success()
 
         ## test calculate reward
         info['distance'] = distance

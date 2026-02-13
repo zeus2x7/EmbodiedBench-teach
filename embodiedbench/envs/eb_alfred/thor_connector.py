@@ -23,7 +23,7 @@ class ThorConnector(ThorEnv):
                  quality='MediumCloseFitShadows',
                  build_path=constants.BUILD_PATH):
         super().__init__(x_display, player_screen_height, player_screen_width, quality, build_path)
-        self.font = ImageFont.truetype("/usr/share/fonts/truetype/ubuntu/UbuntuMono-B.ttf", 24)
+        self.font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 24)
         self.agent_height = 0.9
         self.cur_receptacle = None
         self.reachable_positions, self.reachable_position_kdtree = None, None
@@ -38,9 +38,13 @@ class ThorConnector(ThorEnv):
         self.cur_receptacle = None
 
     def get_reachable_positions(self):
-        free_positions = super().step(dict(action="GetReachablePositions")).metadata["actionReturn"]
+        print("Getting reachable positions...", flush=True)
+        event = super().step(dict(action="GetReachablePositions"))
+        free_positions = event.metadata["actionReturn"]
+        print(f"Found {len(free_positions) if free_positions else 0} positions. Building KDTree...", flush=True)
         free_positions = np.array([[p['x'], p['y'], p['z']] for p in free_positions])
         kd_tree = spatial.KDTree(free_positions)
+        print("KDTree built.", flush=True)
         return free_positions, kd_tree
 
     def write_step_on_img(self, cfg, idx, description):
@@ -230,7 +234,7 @@ class ThorConnector(ThorEnv):
                 # hor_angle = 0
 
                 # teleport ### Full
-                super().step(dict(action="TeleportFull", x=closest_loc[0], y=self.agent_height, z=closest_loc[2], rotation=rot_angle, horizon=-hor_angle))
+                super().step(dict(action="TeleportFull", x=closest_loc[0], y=self.agent_height, z=closest_loc[2], rotation=rot_angle, horizon=-hor_angle, standing=True))
 
                 if not self.last_event.metadata['lastActionSuccess']:
                     log.warning(

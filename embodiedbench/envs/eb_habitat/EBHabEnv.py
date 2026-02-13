@@ -277,6 +277,15 @@ class EBHabEnv(gym.Env):
         info['task_success'] = info['predicate_task_success']
         if info['task_success']:
             info['task_progress'] = 1.0
+        
+        # Add goal info
+        if self.episode_data:
+            info['goal_condition'] = {
+                'episode_id': self.episode_data.episode_id,
+                'scene_id': self.episode_data.scene_id,
+                'goals': str(self.episode_data.goals) if hasattr(self.episode_data, 'goals') else 'N/A'
+            }
+        
         self.episode_log.append(info)
         return obs, reward, done, info
 

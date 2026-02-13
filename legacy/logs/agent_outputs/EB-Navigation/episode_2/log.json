@@ -1,0 +1,433 @@
+[
+  {
+    "step": 0,
+    "action": "reset",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it"
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 1,
+    "action": "Rotate to the right by 90 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Rotate to the right by 90 degrees.",
+      "distance": 2.5954614078781852,
+      "env_feedback": "Last action RotateRight executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 1,
+      "episode_elapsed_seconds": 0.04181385040283203,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 4
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 2,
+    "action": "Rotate to the left by 90 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Rotate to the left by 90 degrees.",
+      "distance": 2.5954614078781852,
+      "env_feedback": "Last action RotateLeft executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 2,
+      "episode_elapsed_seconds": 0.07791900634765625,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 5
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 3,
+    "action": "Move forward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move forward by 0.25",
+      "distance": 2.4108134848262024,
+      "env_feedback": "Last action MoveAhead executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 3,
+      "episode_elapsed_seconds": 0.11211848258972168,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 0
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 4,
+    "action": "Tilt the camera upward by 30 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Tilt the camera upward by 30 degrees.",
+      "distance": 2.4108134848262024,
+      "env_feedback": "Last action LookUp executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 4,
+      "episode_elapsed_seconds": 0.14591360092163086,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 6
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 5,
+    "action": "Move leftward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move leftward by 0.25",
+      "distance": 2.497282919304792,
+      "env_feedback": "Last action MoveLeft executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 5,
+      "episode_elapsed_seconds": 0.18089938163757324,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 3
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 6,
+    "action": "Rotate to the left by 90 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Rotate to the left by 90 degrees.",
+      "distance": 2.497282919304792,
+      "env_feedback": "Last action RotateLeft executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 6,
+      "episode_elapsed_seconds": 0.3561100959777832,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 5
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 7,
+    "action": "Move leftward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move leftward by 0.25",
+      "distance": 2.766409005631023,
+      "env_feedback": "Last action MoveLeft executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 7,
+      "episode_elapsed_seconds": 0.40452146530151367,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 3
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 8,
+    "action": "Rotate to the left by 90 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Rotate to the left by 90 degrees.",
+      "distance": 2.766409005631023,
+      "env_feedback": "Last action RotateLeft executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 8,
+      "episode_elapsed_seconds": 0.4355478286743164,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 5
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 9,
+    "action": "Tilt the camera upward by 30 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Tilt the camera upward by 30 degrees.",
+      "distance": 2.766409005631023,
+      "env_feedback": "Last action LookUp is invalid. can't look up beyond 30 degrees above the forward horizon",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 9,
+      "episode_elapsed_seconds": 0.4667072296142578,
+      "task_success": 0.0,
+      "last_action_success": false,
+      "action_id": 6
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 10,
+    "action": "Tilt the camera upward by 30 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Tilt the camera upward by 30 degrees.",
+      "distance": 2.766409005631023,
+      "env_feedback": "Last action LookUp is invalid. can't look up beyond 30 degrees above the forward horizon",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 10,
+      "episode_elapsed_seconds": 0.498415470123291,
+      "task_success": 0.0,
+      "last_action_success": false,
+      "action_id": 6
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 11,
+    "action": "Move leftward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move leftward by 0.25",
+      "distance": 2.6886090206656714,
+      "env_feedback": "Last action MoveLeft executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 11,
+      "episode_elapsed_seconds": 0.5294926166534424,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 3
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 12,
+    "action": "Move forward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move forward by 0.25",
+      "distance": 2.8762852321539167,
+      "env_feedback": "Last action MoveAhead executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 12,
+      "episode_elapsed_seconds": 0.5588383674621582,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 0
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 13,
+    "action": "Tilt the camera downward by 30 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Tilt the camera downward by 30 degrees.",
+      "distance": 2.8762852321539167,
+      "env_feedback": "Last action LookDown executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 13,
+      "episode_elapsed_seconds": 0.5926249027252197,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 7
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 14,
+    "action": "Move forward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move forward by 0.25",
+      "distance": 3.160634983101965,
+      "env_feedback": "Last action MoveAhead executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 14,
+      "episode_elapsed_seconds": 0.6260814666748047,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 0
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 15,
+    "action": "Rotate to the right by 90 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Rotate to the right by 90 degrees.",
+      "distance": 3.160634983101965,
+      "env_feedback": "Last action RotateRight executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 15,
+      "episode_elapsed_seconds": 0.681840181350708,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 4
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 16,
+    "action": "Rotate to the left by 90 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Rotate to the left by 90 degrees.",
+      "distance": 3.160634983101965,
+      "env_feedback": "Last action RotateLeft executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 16,
+      "episode_elapsed_seconds": 0.715155839920044,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 5
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 17,
+    "action": "Tilt the camera upward by 30 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Tilt the camera upward by 30 degrees.",
+      "distance": 3.160634983101965,
+      "env_feedback": "Last action LookUp executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 17,
+      "episode_elapsed_seconds": 0.745934247970581,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 6
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 18,
+    "action": "Rotate to the right by 90 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Rotate to the right by 90 degrees.",
+      "distance": 3.160634983101965,
+      "env_feedback": "Last action RotateRight executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 18,
+      "episode_elapsed_seconds": 0.7913250923156738,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 4
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 19,
+    "action": "Move forward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move forward by 0.25",
+      "distance": 3.2270751179418746,
+      "env_feedback": "Last action MoveAhead executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the GarbageCan in the room and be as close as possible to it",
+      "env_step": 19,
+      "episode_elapsed_seconds": 0.8359289169311523,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 0
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  }
+]

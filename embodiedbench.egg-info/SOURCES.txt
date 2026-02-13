@@ -1,0 +1,14 @@
+README.md
+setup.py
+cosmos_agent/__init__.py
+cosmos_agent/cosmos_agent.py
+cosmos_agent/cosmos_model.py
+cosmos_agent/prompts.py
+cosmos_agent/run_cosmos_alfred.py
+cosmos_agent/run_cosmos_habitat.py
+cosmos_agent/run_cosmos_man.py
+cosmos_agent/run_cosmos_nav.py
+embodiedbench.egg-info/PKG-INFO
+embodiedbench.egg-info/SOURCES.txt
+embodiedbench.egg-info/dependency_links.txt
+embodiedbench.egg-info/top_level.txt

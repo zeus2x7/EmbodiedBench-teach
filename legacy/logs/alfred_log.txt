@@ -1,0 +1,125 @@
+thor-201909061227-Linux64: [                           0%   0.0 s/B]  of 390.MB
+thor-201909061227-Linux64: [                         0%   6.2 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [                         0%  12.3 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [                         2%  22.0 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [                         3%  27.0 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|                        4%  30.0 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|                        5%  32.1 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|                        7%  33.5 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|                        8%  34.7 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||                       9%  35.6 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||                      11%  36.3 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||                      12%  36.9 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||                     13%  37.4 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||                     15%  37.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||                     16%  38.2 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||                     17%  38.5 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||                    18%  39.3 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||                    19%  38.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||                    20%  39.1 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||                    22%  39.3 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||                   23%  39.5 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||                   24%  39.6 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||                   26%  39.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||                  27%  39.9 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||                  28%  40.0 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||                  30%  40.2 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||                  31%  40.3 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||                 32%  40.4 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||                 34%  40.4 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||                 35%  40.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||                 36%  40.5 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||                37%  40.6 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||                38%  40.9 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||                39%  40.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||                40%  40.7 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||               41%  40.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||               42%  41.0 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||               43%  40.9 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||               44%  40.9 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||               45%  41.0 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||              46%  41.1 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||              47%  41.0 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||              48%  41.0 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||              49%  41.1 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||             50%  41.3 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||             51%  41.1 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||             52%  41.2 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||             53%  41.3 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||             54%  41.3 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||            55%  41.2 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||            56%  41.3 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||            57%  41.4 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||            58%  41.3 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||           59%  41.3 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||           60%  41.4 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||           61%  41.4 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||           62%  41.4 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||           63%  41.4 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||          64%  41.5 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||          65%  41.4 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||          66%  41.5 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||          67%  41.6 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||         68%  41.6 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||         69%  41.5 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||         70%  41.6 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||         71%  41.7 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||         72%  41.6 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||||        73%  41.6 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||||        74%  41.6 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||||        75%  41.6 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||||        75%  41.6 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||||        77%  41.6 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||||       78%  41.7 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||||       79%  41.6 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||||       80%  41.7 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||||       81%  41.7 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||||||      82%  41.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||||||      83%  41.7 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||||||      84%  41.7 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||||||      85%  41.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||||||      86%  41.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||||||     86%  41.7 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||||||     88%  41.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||||||     89%  41.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||||||     89%  41.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||||||||    90%  41.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||||||||    92%  41.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||||||||    93%  41.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||||||||    93%  41.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [||||||||||||||||||||    94%  41.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||||||||   96%  41.9 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||||||||   96%  41.8 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||||||||   98%  41.9 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||||||||   99%  41.9 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||||||||| 100%  41.9 MiB/s]  of 390.MB
+thor-201909061227-Linux64: [|||||||||||||||||||||| 100%  41.9 MiB/s]  of 390.MB
+Found path: /root/.ai2thor/releases/thor-201909061227-Linux64/thor-201909061227-Linux64
+Mono path[0] = '/root/.ai2thor/releases/thor-201909061227-Linux64/thor-201909061227-Linux64_Data/Managed'
+Mono config path = '/root/.ai2thor/releases/thor-201909061227-Linux64/thor-201909061227-Linux64_Data/Mono/etc'
+Preloaded 'ScreenSelector.so'
+PlayerPrefs - Creating folder: /root/.config/unity3d/Allen Institute for Artificial Intelligence
+PlayerPrefs - Creating folder: /root/.config/unity3d/Allen Institute for Artificial Intelligence/AI2-Thor
+Logging to /root/.config/unity3d/Allen Institute for Artificial Intelligence/AI2-Thor/Player.log
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/envs/embench/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/ubuntu/miniconda3/envs/embench/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/ubuntu/workspace/EmbodiedBench/embodiedbench/envs/eb_alfred/EBAlfEnv.py", line 416, in <module>
+    env = EBAlfEnv(eval_set='base', down_sample_ratio=1.0, selected_indexes=[])
+  File "/home/ubuntu/workspace/EmbodiedBench/embodiedbench/envs/eb_alfred/EBAlfEnv.py", line 105, in __init__
+    self.env = ThorConnector(x_display=X_DISPLAY, player_screen_height=resolution, player_screen_width=resolution)
+  File "/home/ubuntu/workspace/EmbodiedBench/embodiedbench/envs/eb_alfred/thor_connector.py", line 25, in __init__
+    super().__init__(x_display, player_screen_height, player_screen_width, quality, build_path)
+  File "/home/ubuntu/workspace/EmbodiedBench/embodiedbench/envs/eb_alfred/env/thor_env.py", line 32, in __init__
+    self.start(x_display=x_display,
+  File "/home/ubuntu/miniconda3/envs/embench/lib/python3.9/site-packages/ai2thor/controller.py", line 869, in start
+    self.last_event = queue_get(self.request_queue)
+  File "/home/ubuntu/miniconda3/envs/embench/lib/python3.9/site-packages/ai2thor/server.py", line 41, in queue_get
+    res = que.get(block=True, timeout=0.5)
+  File "/home/ubuntu/miniconda3/envs/embench/lib/python3.9/queue.py", line 180, in get
+    self.not_empty.wait(remaining)
+  File "/home/ubuntu/miniconda3/envs/embench/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

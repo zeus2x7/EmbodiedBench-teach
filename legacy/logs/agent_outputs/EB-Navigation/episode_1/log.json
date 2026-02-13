@@ -1,0 +1,433 @@
+[
+  {
+    "step": 0,
+    "action": "reset",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "instruction": "navigate to the Bread in the room and be as close as possible to it"
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 1,
+    "action": "Tilt the camera downward by 30 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Tilt the camera downward by 30 degrees.",
+      "distance": 2.8704765293683745,
+      "env_feedback": "Last action LookDown executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 1,
+      "episode_elapsed_seconds": 0.06542634963989258,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 7
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 2,
+    "action": "Tilt the camera downward by 30 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Tilt the camera downward by 30 degrees.",
+      "distance": 2.8704765293683745,
+      "env_feedback": "Last action LookDown executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 2,
+      "episode_elapsed_seconds": 0.1267871856689453,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 7
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 3,
+    "action": "Move forward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move forward by 0.25",
+      "distance": 2.5787013079617007,
+      "env_feedback": "Last action MoveAhead executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 3,
+      "episode_elapsed_seconds": 0.2000713348388672,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 0
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 4,
+    "action": "Move leftward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move leftward by 0.25",
+      "distance": 2.6681991778406275,
+      "env_feedback": "Last action MoveLeft executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 4,
+      "episode_elapsed_seconds": 0.2501797676086426,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 3
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 5,
+    "action": "Move leftward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move leftward by 0.25",
+      "distance": 2.7872698755767424,
+      "env_feedback": "Last action MoveLeft executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 5,
+      "episode_elapsed_seconds": 0.29682445526123047,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 3
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 6,
+    "action": "Move backward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move backward by 0.25",
+      "distance": 3.0592169757449326,
+      "env_feedback": "Last action MoveBack executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 6,
+      "episode_elapsed_seconds": 0.3431539535522461,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 1
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 7,
+    "action": "Tilt the camera upward by 30 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Tilt the camera upward by 30 degrees.",
+      "distance": 3.0592169757449326,
+      "env_feedback": "Last action LookUp executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 7,
+      "episode_elapsed_seconds": 0.39246487617492676,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 6
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 8,
+    "action": "Tilt the camera downward by 30 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Tilt the camera downward by 30 degrees.",
+      "distance": 3.0592169757449326,
+      "env_feedback": "Last action LookDown executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 8,
+      "episode_elapsed_seconds": 0.43689894676208496,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 7
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 9,
+    "action": "Tilt the camera downward by 30 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Tilt the camera downward by 30 degrees.",
+      "distance": 3.0592169757449326,
+      "env_feedback": "Last action LookDown is invalid. can't look down beyond 60 degrees below the forward horizon",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 9,
+      "episode_elapsed_seconds": 0.48236918449401855,
+      "task_success": 0.0,
+      "last_action_success": false,
+      "action_id": 7
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 10,
+    "action": "Move rightward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move rightward by 0.25",
+      "distance": 2.951139101773717,
+      "env_feedback": "Last action MoveRight executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 10,
+      "episode_elapsed_seconds": 0.5320460796356201,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 2
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 11,
+    "action": "Move backward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move backward by 0.25",
+      "distance": 3.2371526201564405,
+      "env_feedback": "Last action MoveBack executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 11,
+      "episode_elapsed_seconds": 0.5874960422515869,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 1
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 12,
+    "action": "Rotate to the left by 90 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Rotate to the left by 90 degrees.",
+      "distance": 3.2371526201564405,
+      "env_feedback": "Last action RotateLeft executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 12,
+      "episode_elapsed_seconds": 0.6350123882293701,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 5
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 13,
+    "action": "Move forward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move forward by 0.25",
+      "distance": 3.300335555396147,
+      "env_feedback": "Last action MoveAhead executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 13,
+      "episode_elapsed_seconds": 0.6727337837219238,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 0
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 14,
+    "action": "Move rightward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move rightward by 0.25",
+      "distance": 3.0203111909278597,
+      "env_feedback": "Last action MoveRight executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 14,
+      "episode_elapsed_seconds": 0.709876537322998,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 2
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 15,
+    "action": "Rotate to the right by 90 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Rotate to the right by 90 degrees.",
+      "distance": 3.0203111909278597,
+      "env_feedback": "Last action RotateRight executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 15,
+      "episode_elapsed_seconds": 0.759406566619873,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 4
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 16,
+    "action": "Rotate to the right by 90 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Rotate to the right by 90 degrees.",
+      "distance": 3.0203111909278597,
+      "env_feedback": "Last action RotateRight executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 16,
+      "episode_elapsed_seconds": 0.7988743782043457,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 4
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 17,
+    "action": "Move forward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move forward by 0.25",
+      "distance": 2.951139101773717,
+      "env_feedback": "Last action MoveAhead executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 17,
+      "episode_elapsed_seconds": 0.8361761569976807,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 0
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 18,
+    "action": "Rotate to the right by 90 degrees.",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Rotate to the right by 90 degrees.",
+      "distance": 2.951139101773717,
+      "env_feedback": "Last action RotateRight executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 18,
+      "episode_elapsed_seconds": 0.8749725818634033,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 4
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 19,
+    "action": "Move leftward by 0.25",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "action_description": "Move leftward by 0.25",
+      "distance": 2.8704765425050534,
+      "env_feedback": "Last action MoveLeft executed successfully.",
+      "reasoning": "random",
+      "instruction": "navigate to the Bread in the room and be as close as possible to it",
+      "env_step": 19,
+      "episode_elapsed_seconds": 0.919968843460083,
+      "task_success": 0.0,
+      "last_action_success": true,
+      "action_id": 3
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)"
+    },
+    "frame_saved": true
+  }
+]

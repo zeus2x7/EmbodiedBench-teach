@@ -1,0 +1,406 @@
+[
+  {
+    "step": 0,
+    "action": "reset",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "instruction": "Move one of the pear items to the indicated sofa."
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 1,
+    "action": "place at the left drawer of the kitchen counter",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 1,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Move one of the pear items to the indicated sofa.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 1,
+      "action": "place(receptacle_aabb_drawer_left_top_frl_apartment_kitchen_counter)",
+      "env_feedback": "Last action is invalid. Robot cannot place any object when not holding something. Please pick the object before place it.",
+      "env_step": 1,
+      "episode_elapsed_seconds": "(0.0275881290435791,)",
+      "action_id": 58,
+      "action_description": "place at the left drawer of the kitchen counter",
+      "reasoning": "",
+      "instruction": "Move one of the pear items to the indicated sofa.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 2,
+    "action": "place at the left drawer of the kitchen counter",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 2,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Move one of the pear items to the indicated sofa.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 2,
+      "action": "place(receptacle_aabb_drawer_left_top_frl_apartment_kitchen_counter)",
+      "env_feedback": "Last action is invalid. Robot cannot place any object when not holding something. Please pick the object before place it.",
+      "env_step": 2,
+      "episode_elapsed_seconds": "(0.048705339431762695,)",
+      "action_id": 58,
+      "action_description": "place at the left drawer of the kitchen counter",
+      "reasoning": "",
+      "instruction": "Move one of the pear items to the indicated sofa.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 3,
+    "action": "pick up the block",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 3,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Move one of the pear items to the indicated sofa.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 3,
+      "action": "pick_block(robot_0)",
+      "env_feedback": "Last action is invalid. Robot cannot pick any object that is not near the robot. Navigate to other place to find the object.",
+      "env_step": 3,
+      "episode_elapsed_seconds": "(0.06615257263183594,)",
+      "action_id": 22,
+      "action_description": "pick up the block",
+      "reasoning": "",
+      "instruction": "Move one of the pear items to the indicated sofa.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 4,
+    "action": "place at the table 1",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 4,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Move one of the pear items to the indicated sofa.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 4,
+      "action": "place(receptacle_aabb_Tbl1_Top1_frl_apartment_table_01)",
+      "env_feedback": "Last action is invalid. Robot cannot place any object when not holding something. Please pick the object before place it.",
+      "env_step": 4,
+      "episode_elapsed_seconds": "(0.08453726768493652,)",
+      "action_id": 50,
+      "action_description": "place at the table 1",
+      "reasoning": "",
+      "instruction": "Move one of the pear items to the indicated sofa.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 5,
+    "action": "pick up the mug",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 5,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Move one of the pear items to the indicated sofa.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 5,
+      "action": "pick_mug(robot_0)",
+      "env_feedback": "Last action is invalid. Robot cannot pick any object that is not near the robot. Navigate to other place to find the object.",
+      "env_step": 5,
+      "episode_elapsed_seconds": "(0.1014242172241211,)",
+      "action_id": 44,
+      "action_description": "pick up the mug",
+      "reasoning": "",
+      "instruction": "Move one of the pear items to the indicated sofa.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 6,
+    "action": "place at the left counter in the kitchen",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 6,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Move one of the pear items to the indicated sofa.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 6,
+      "action": "place(receptacle_aabb_counter_left_kitchen_counter)",
+      "env_feedback": "Last action is invalid. Robot cannot place any object when not holding something. Please pick the object before place it.",
+      "env_step": 6,
+      "episode_elapsed_seconds": "(0.1190330982208252,)",
+      "action_id": 55,
+      "action_description": "place at the left counter in the kitchen",
+      "reasoning": "",
+      "instruction": "Move one of the pear items to the indicated sofa.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 7,
+    "action": "open the cabinet 5",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 7,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Move one of the pear items to the indicated sofa.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 7,
+      "action": "open_cab(cab_push_point_5)",
+      "env_feedback": "Last action is invalid. Check whether the receptacle is already open or the robot is not near the receptacle.",
+      "env_step": 7,
+      "episode_elapsed_seconds": "(0.1351616382598877,)",
+      "action_id": 64,
+      "action_description": "open the cabinet 5",
+      "reasoning": "",
+      "instruction": "Move one of the pear items to the indicated sofa.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 8,
+    "action": "navigate to the left drawer of the kitchen counter",
+    "reward": 1.25,
+    "done": false,
+    "info": {
+      "num_steps": 8,
+      "was_prev_action_invalid": false,
+      "predicate_task_success": false,
+      "lang_goal": "Move one of the pear items to the indicated sofa.",
+      "task_progress": 0.25,
+      "subgoal_reward": 1.25,
+      "num_invalid_actions": 7,
+      "action": "nav(receptacle_aabb_drawer_left_top_frl_apartment_kitchen_counter)",
+      "env_feedback": "Last action executed successfully.",
+      "env_step": 8,
+      "episode_elapsed_seconds": "(0.28190135955810547,)",
+      "action_id": 14,
+      "action_description": "navigate to the left drawer of the kitchen counter",
+      "reasoning": "",
+      "instruction": "Move one of the pear items to the indicated sofa.",
+      "last_action_success": 1.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 9,
+    "action": "close the cabinet 5",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 9,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Move one of the pear items to the indicated sofa.",
+      "task_progress": 0.25,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 8,
+      "action": "close_cab(cab_push_point_5)",
+      "env_feedback": "Last action is invalid. Check whether the receptacle is already closed or the robot is not near the receptacle.",
+      "env_step": 9,
+      "episode_elapsed_seconds": "(0.29946136474609375,)",
+      "action_id": 68,
+      "action_description": "close the cabinet 5",
+      "reasoning": "",
+      "instruction": "Move one of the pear items to the indicated sofa.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 10,
+    "action": "navigate to the right drawer of the kitchen counter",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 10,
+      "was_prev_action_invalid": false,
+      "predicate_task_success": false,
+      "lang_goal": "Move one of the pear items to the indicated sofa.",
+      "task_progress": 0.25,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 8,
+      "action": "nav(receptacle_aabb_drawer_right_top_frl_apartment_kitchen_counter)",
+      "env_feedback": "Last action executed successfully.",
+      "env_step": 10,
+      "episode_elapsed_seconds": "(0.31536269187927246,)",
+      "action_id": 15,
+      "action_description": "navigate to the right drawer of the kitchen counter",
+      "reasoning": "",
+      "instruction": "Move one of the pear items to the indicated sofa.",
+      "last_action_success": 1.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 11,
+    "action": "navigate to the right counter in the kitchen",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 11,
+      "was_prev_action_invalid": false,
+      "predicate_task_success": false,
+      "lang_goal": "Move one of the pear items to the indicated sofa.",
+      "task_progress": 0.25,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 8,
+      "action": "nav(receptacle_aabb_counter_right_kitchen_counter)",
+      "env_feedback": "Last action executed successfully.",
+      "env_step": 11,
+      "episode_elapsed_seconds": "(0.331439733505249,)",
+      "action_id": 10,
+      "action_description": "navigate to the right counter in the kitchen",
+      "reasoning": "",
+      "instruction": "Move one of the pear items to the indicated sofa.",
+      "last_action_success": 1.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 12,
+    "action": "place at the left drawer of the kitchen counter",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 12,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Move one of the pear items to the indicated sofa.",
+      "task_progress": 0.25,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 9,
+      "action": "place(receptacle_aabb_drawer_left_top_frl_apartment_kitchen_counter)",
+      "env_feedback": "Last action is invalid. Robot cannot place any object when not holding something. Please pick the object before place it.",
+      "env_step": 12,
+      "episode_elapsed_seconds": "(0.3483114242553711,)",
+      "action_id": 58,
+      "action_description": "place at the left drawer of the kitchen counter",
+      "reasoning": "",
+      "instruction": "Move one of the pear items to the indicated sofa.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 13,
+    "action": "pick up the apple",
+    "reward": 0.0,
+    "done": true,
+    "info": {
+      "num_steps": 13,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Move one of the pear items to the indicated sofa.",
+      "task_progress": 0.25,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 10,
+      "action": "pick_apple(robot_0)",
+      "env_feedback": "Last action is invalid. Robot cannot pick any object that is not near the robot. Navigate to other place to find the object.",
+      "env_step": 13,
+      "episode_elapsed_seconds": "(0.36380672454833984,)",
+      "action_id": 33,
+      "action_description": "pick up the apple",
+      "reasoning": "",
+      "instruction": "Move one of the pear items to the indicated sofa.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  }
+]

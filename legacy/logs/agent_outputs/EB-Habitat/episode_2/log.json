@@ -1,0 +1,346 @@
+[
+  {
+    "step": 0,
+    "action": "reset",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "instruction": "Find a orange on the TV stand and move it to the sink."
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 1,
+    "action": "pick up the spoon",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 1,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Find a orange on the TV stand and move it to the sink.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 1,
+      "action": "pick_spoon(robot_0)",
+      "env_feedback": "Last action is invalid. Robot cannot pick any object that is not near the robot. Navigate to other place to find the object.",
+      "env_step": 1,
+      "episode_elapsed_seconds": "(0.01863551139831543,)",
+      "action_id": 26,
+      "action_description": "pick up the spoon",
+      "reasoning": "",
+      "instruction": "Find a orange on the TV stand and move it to the sink.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 2,
+    "action": "pick up the bowl",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 2,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Find a orange on the TV stand and move it to the sink.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 2,
+      "action": "pick_bowl(robot_0)",
+      "env_feedback": "Last action is invalid. Robot cannot pick any object that is not near the robot. Navigate to other place to find the object.",
+      "env_step": 2,
+      "episode_elapsed_seconds": "(0.037044525146484375,)",
+      "action_id": 42,
+      "action_description": "pick up the bowl",
+      "reasoning": "",
+      "instruction": "Find a orange on the TV stand and move it to the sink.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 3,
+    "action": "pick up the cleanser",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 3,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Find a orange on the TV stand and move it to the sink.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 3,
+      "action": "pick_cleanser(robot_0)",
+      "env_feedback": "Last action is invalid. Robot cannot pick any object that is not near the robot. Navigate to other place to find the object.",
+      "env_step": 3,
+      "episode_elapsed_seconds": "(0.05427837371826172,)",
+      "action_id": 29,
+      "action_description": "pick up the cleanser",
+      "reasoning": "",
+      "instruction": "Find a orange on the TV stand and move it to the sink.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 4,
+    "action": "pick up the lego",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 4,
+      "was_prev_action_invalid": false,
+      "predicate_task_success": false,
+      "lang_goal": "Find a orange on the TV stand and move it to the sink.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 3,
+      "action": "pick_lego(robot_0)",
+      "env_feedback": "Last action executed successfully and you are holding lego.",
+      "env_step": 4,
+      "episode_elapsed_seconds": "(0.07192111015319824,)",
+      "action_id": 39,
+      "action_description": "pick up the lego",
+      "reasoning": "",
+      "instruction": "Find a orange on the TV stand and move it to the sink.",
+      "last_action_success": 1.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 5,
+    "action": "pick up the spoon",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 5,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Find a orange on the TV stand and move it to the sink.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 4,
+      "action": "pick_spoon(robot_0)",
+      "env_feedback": "Last action is invalid. Robot cannot pick any object when holding something. Please place the object before picking something.",
+      "env_step": 5,
+      "episode_elapsed_seconds": "(0.08917522430419922,)",
+      "action_id": 26,
+      "action_description": "pick up the spoon",
+      "reasoning": "",
+      "instruction": "Find a orange on the TV stand and move it to the sink.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 6,
+    "action": "pick up the block",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 6,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Find a orange on the TV stand and move it to the sink.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 5,
+      "action": "pick_block(robot_0)",
+      "env_feedback": "Last action is invalid. Robot cannot pick any object when holding something. Please place the object before picking something.",
+      "env_step": 6,
+      "episode_elapsed_seconds": "(0.10578680038452148,)",
+      "action_id": 22,
+      "action_description": "pick up the block",
+      "reasoning": "",
+      "instruction": "Find a orange on the TV stand and move it to the sink.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 7,
+    "action": "pick up the hammer",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 7,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Find a orange on the TV stand and move it to the sink.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 6,
+      "action": "pick_hammer(robot_0)",
+      "env_feedback": "Last action is invalid. Robot cannot pick any object when holding something. Please place the object before picking something.",
+      "env_step": 7,
+      "episode_elapsed_seconds": "(0.12291193008422852,)",
+      "action_id": 18,
+      "action_description": "pick up the hammer",
+      "reasoning": "",
+      "instruction": "Find a orange on the TV stand and move it to the sink.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 8,
+    "action": "pick up the spatula",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 8,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Find a orange on the TV stand and move it to the sink.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 7,
+      "action": "pick_spatula(robot_0)",
+      "env_feedback": "Last action is invalid. Robot cannot pick any object when holding something. Please place the object before picking something.",
+      "env_step": 8,
+      "episode_elapsed_seconds": "(0.14017105102539062,)",
+      "action_id": 24,
+      "action_description": "pick up the spatula",
+      "reasoning": "",
+      "instruction": "Find a orange on the TV stand and move it to the sink.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 9,
+    "action": "pick up the mug",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 9,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Find a orange on the TV stand and move it to the sink.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 8,
+      "action": "pick_mug(robot_0)",
+      "env_feedback": "Last action is invalid. Robot cannot pick any object when holding something. Please place the object before picking something.",
+      "env_step": 9,
+      "episode_elapsed_seconds": "(0.15677905082702637,)",
+      "action_id": 44,
+      "action_description": "pick up the mug",
+      "reasoning": "",
+      "instruction": "Find a orange on the TV stand and move it to the sink.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 10,
+    "action": "pick up the toy airplane",
+    "reward": 0.0,
+    "done": false,
+    "info": {
+      "num_steps": 10,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Find a orange on the TV stand and move it to the sink.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 9,
+      "action": "pick_toy airplane(robot_0)",
+      "env_feedback": "Last action is invalid. Robot cannot pick any object when holding something. Please place the object before picking something.",
+      "env_step": 10,
+      "episode_elapsed_seconds": "(0.1733858585357666,)",
+      "action_id": 47,
+      "action_description": "pick up the toy airplane",
+      "reasoning": "",
+      "instruction": "Find a orange on the TV stand and move it to the sink.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  },
+  {
+    "step": 11,
+    "action": "place at the TV stand",
+    "reward": 0.0,
+    "done": true,
+    "info": {
+      "num_steps": 11,
+      "was_prev_action_invalid": true,
+      "predicate_task_success": false,
+      "lang_goal": "Find a orange on the TV stand and move it to the sink.",
+      "task_progress": 0.0,
+      "subgoal_reward": 0.0,
+      "num_invalid_actions": 10,
+      "action": "place(receptacle_aabb_TvStnd1_Top1_frl_apartment_tvstand)",
+      "env_feedback": "Last action is invalid. Robot cannot place any object that is not near the robot. Navigate to other place to find the object.",
+      "env_step": 11,
+      "episode_elapsed_seconds": "(0.19116711616516113,)",
+      "action_id": 52,
+      "action_description": "place at the TV stand",
+      "reasoning": "",
+      "instruction": "Find a orange on the TV stand and move it to the sink.",
+      "last_action_success": 0.0,
+      "task_success": false
+    },
+    "observation_summary": {
+      "head_rgb": "ndarray(shape=(500, 500, 3), dtype=uint8)",
+      "debug_info": "ndarray(shape=(2,), dtype=float32)"
+    },
+    "frame_saved": true
+  }
+]
